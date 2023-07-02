@@ -5,7 +5,7 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Planet Bike</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
@@ -18,60 +18,47 @@
 </head>
 
 <body>
-    <div >
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">Planet Bike</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Caracteristicas</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Ayuda</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">
-                                Modelos
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Paseo</a></li>
-                                <li><a class="dropdown-item" href="#">Carretera</a></li>
-                                <li><a class="dropdown-item" href="#">MountanBike</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+
+    <div class="encabezado">
+        <!-- encabezado -->
+        <div class="titulo-subtitulo">
+            <h1>Listado</h1>
+            <p>Arma tu pedido</p>
+        </div>
+
+        <div>
+            <img class="logo" src="/Examenes/TrabajoFinal-1erCuatrimestre/imagenesexamen/Proyecto_nuevo_2.jpg" alt="">
+        </div>
     </div>
+    <!-- aqui va el contenido-->
+    <div class="d-flex flex-column contenido">
+        <div>
+            <h3 class="sub-titulo">calidad asegurada...</h3>
+        </div>
+        <div>
+            <table class="table table-bordered border-primary" class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Identificador</th>
+                        <th>nombre</th>
+                        <th>Estado</th>
+                    </tr>
+                </thead>
+                <tbody id="tbody">
 
-    <div class="contenedor">
 
-        <img class="imagenes" src="imagenes/pinarello-team-ineos-2023.jpg" alt="Pinarello F">
+                </tbody>
+            </table>
+        </div>
+        <div class="d-flex flex-row justify-content_end">
 
+            <button id="agregarTarea" type="button" class="btn btn-primary boton-2">Agregar Tarea</button>
+            <button class="btn btn-primary boton-2"><a class="boton-pedido" href="./TrabajoFinal1.html">Ordenar
+                    Pedido</a></button>
+        </div>
     </div>
-    <div class="contenedor">
-        <img class="imagenes" src="imagenes/290343_4.jpg" alt="Scott Foil">
     </div>
-    <div class="contenedor">
-        <img class="imagenes" src="imagenes/REACTO_5000_TEAM_BAHRAIN_REP_MY2022.jpg" alt="Merida Reacto">
-    </div>
-
-
-
-
-
-    <script type="text/javascript" src="./TrabajoFinal1.js"> </script>
+    <script type="text/javascript" src="./paginaprincipal.js"> </script>
 </body>
 
 </html>

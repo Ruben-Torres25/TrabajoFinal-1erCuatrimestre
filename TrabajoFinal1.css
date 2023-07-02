@@ -14,16 +14,6 @@ body {
     padding: 10px;
 }
 
-.contenedor {
-
-    border: 4px;
-    border-style: solid;
-    padding: 10px;
-    height: 0 auto;
-    width: 400px;
-    margin: 0 auto;
-}
-
 .subbloques {
     border: 2px;
     border-style: solid;
@@ -37,8 +27,6 @@ body {
 }
 
 .bloque {
-
-
     padding: 10px;
     height: 0 auto;
     width: 625px;
@@ -47,30 +35,95 @@ body {
 
 }
 
-.boton{
+.boton {
     background-color: rgb(53, 165, 53);
-    width: 115px;
+    width: 200px;
     text-align: center;
+    border-radius: 10px;
+    height: 0 auto;
+    margin: 0 auto;
+    border: solid;
+    border-color: transparent;
+
+}
+
+.boton:hover {
+    background-color: white;
+
+    border-color: black;
+    cursor: cell;
+}
+
+.boton-agregar {
+    width: 0 auto;
+    height: 30px;
+    background-color: rgb(223, 220, 41);
+    border: 2px;
     border-radius: 5px;
-    height: 0 auto;
-    margin: 0 auto;
-}
-
-.barra{
-    background-color: orangered ;
-}
-
-.imagenes{
-    width: 500px;
-    margin: 0 auto;
-    border: 5px solid;
-}
-.contenedor {
-
-    border: 4px;
     border-style: solid;
+}
+
+.boton-eliminar {
+    width: 0 auto;
+    height: 30px;
+    background-color: brown;
+    border: 2px;
+    border-radius: 5px;
+    border-style: solid;
+    margin: 5px;
+}
+
+.encabezado {
+    text-align: center;
+    background-color: #6c00ff;
+    color: whitesmoke;
+    height: 120px;
+    padding: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.boton-2 {
     padding: 10px;
-    height: 0 auto;
-    width: 400px;
-    margin: 0 auto;
+    margin: 10px;
+}
+
+.sub-titulo {
+    text-align: center;
+    font-size: large;
+    margin: 10px;
+}
+
+.link {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    width: 200px;
+}
+
+.link:hover {
+    color: black;
+
+}
+
+.boton-pedido {
+    color: white;
+    text-decoration: none;
+
+}
+
+.logo {
+    height: 100px;
+    width: 300px;
+    margin: 0px;
+    margin-right: 630px;
+
+}
+
+.titulo-subtitulo {
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+    margin-top: 15px;
 }

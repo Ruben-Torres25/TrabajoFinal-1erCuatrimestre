@@ -5,17 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pagina estatica</title>
-
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
         crossorigin="anonymous"></script>
-
     <link rel="stylesheet" href="./TrabajoFinal1.css">
-
-
-
 </head>
 
 <body>
@@ -24,54 +19,43 @@
         <h1 class="">Formulario de compra</h1>
     </div>
     <br>
-
     <div class="titulo">
-        <p>Necesitas ayuda? </p>
-
+        <p>¿Se le olvido algo?</p>
         <div class="boton">
-            <button type="button" class="btn">Contactanos</button>
+            <button type="button" class="btn"><a class="link" href="./paginaprincipal.html">Volver al listado</a></button>
         </div>
-
     </div>
-
     <div class="bloque">
         <form class="row g-3">
-<!-- id="inputEmail4" -->
-            <div class="subbloques" class="col-md-6" >
-                <label for="Nombre" class="form-label">Nombre y apellido</label>
-                <input type="text" class="form-control"  required id="nombre">
+            <div class="subbloques" class="col-md-6">
+                <label>Nombre y apellido</label>
+                <input type="text" class="form-control" aria-label="required" required id="nombre">
             </div>
-
-            <div class="subbloques" class="col-12" >
-                <label for="Retiro en correo" class="form-label">Elegir correo</label>
-
-                <select id="inputState" class="form-select" required>
+            <div class="subbloques" class="col-12">
+                <label>Elegir correo</label>
+                <select id="inputState" class="form-select" aria-label="required" required>
                     <option selected>Elegir...</option>
                     <option value="Correo Argentino">Correo Argentino</option>
                     <option value="Andreani">Andreani</option>
                     <option value="Expreso 4 bahias">Expreso 4 bahias</option>
                     <option value="otro">Otro(Especificar)</option>
                 </select>
-                <label for="text">Comentarios/Especificaciones...</label>
+                <label>Comentarios/Especificaciones...</label>
                 <input type="text" id="correo">
-
             </div>
-
-            <div class="subbloques" class="col-md-6" >
-                <label for="Fecha de nacimiento" class="form-label">Fecha de nacimiento</label>
-                <input type="date" class="form-control" placeholder="09-9-1990" required id="nacimiento">
-
+            <div class="subbloques" class="col-md-6">
+                <label>Fecha de nacimiento</label>
+                <input type="date" class="form-control" placeholder="09-9-1990" aria-label="required" required
+                    id="nacimiento">
             </div>
-
-            <div class="subbloques" class="col-12" >
-                <label for="email" class="form-label">Email</label>
-                <input type="email" class="form-control"  placeholder="ejemplo@gmail.com" required id="email">
+            <div class="subbloques" class="col-12">
+                <label>Email</label>
+                <input type="email" class="form-control" placeholder="ejemplo@gmail.com" aria-label="required" required
+                    id="email">
             </div>
-<!-- id="inputAddress" -->
-            <div class="subbloques" class="col-12" >
-                <label for="Localidad" class="form-label">Localidad</label>
-<!-- id="inputState" -->
-                <select  id="localidad" class="form-select" required>
+            <div class="subbloques" class="col-12">
+                <label>Localidad</label>
+                <select id="localidad" class="form-select" aria-label="required" required>
                     <option selected>Elegir...</option>
                     <option value="Olavarria">Olavarria</option>
                     <option value="Tapalque">Tapalque</option>
@@ -80,91 +64,40 @@
                     <option value="Tandil">Tandil</option>
                     <option value="Otro">Otro...</option>
                 </select>
-
             </div>
-
-            <div class="subbloques" class="col-md-6" >
-                <label for="dni" class="form-label">DNI</label>
-                <input type="number" class="form-control"  placeholder="Documento Nacional de Identidad" required id="dni" >
-            <!-- id="inputCity" -->
+            <div class="subbloques" class="col-md-6">
+                <label>DNI</label>
+                <input type="number" class="form-control" placeholder="Documento Nacional de Identidad"
+                    aria-label="required" required id="dni">
             </div>
-
-            <div class="subbloques" class="col-md-4" >
-                <label for="sexo" class="form-label">sexo</label>
-                <!-- id="inputState" -->
-                <select  id="sexo" class="form-select">
+            <div class="subbloques" class="col-md-4">
+                <label>sexo</label>
+                <select id="sexo" class="form-select" required>
                     <option selected>Elegir...</option>
                     <option value="Hombre">Hombre</option>
                     <option value="Mujer">Mujer</option>
                     <option value="Otro">Otro</option>
                 </select>
             </div>
-
-            <div class="subbloques" class="col-md-2" >
-                <label for="contacto" class="form-label">Numero de contacto</label>
-                <input type="number" class="form-control" id="contacto"  placeholder="2284112233" required>
-            <!-- id="inputZip" -->
+            <div class="subbloques" class="col-md-2">
+                <label>Numero de contacto</label>
+                <input type="number" class="form-control" id="contacto" placeholder="2284112233" aria-label="required"
+                    required>
             </div>
-
             <div class="subbloques" class="col-12">
                 <div class="form-check">
                     <input class="form-check-input" type="checkbox" id="gridCheck" required>
-                    <label class="form-check-label" for="gridCheck">
+                    <label class="form-check-label" for="gridCheck" aria-label="required" required>
                         Clickeame
                     </label>
                 </div>
             </div>
-
             <div class="col-12">
                 <button type="button" class="btn btn-primary" onclick="enviar()">Enviar</button>
             </div>
-
         </form>
     </div>
     <script type="text/javascript" src="./TrabajoFinal1.js">  </script>
 </body>
-
-
-<!-- 
-<body>
-    <br>
-    <div class="titulo">
-        <h1 class="">Formulario del Trabajo Final</h1>
-    </div>
-    <br>
-
-    <div>
-
-        <div class="bloques">
-            <label for="Nombre y apellido">Nombre y apellido</label><br> <input type="text"
-                name="Nombre y apellido"><br>
-        </div>
-        <div class="bloques">
-            <label for="Email">Email</label><br> <input type="text" name="Email"><br>
-        </div>
-        <div class="bloques">
-            <label for="Edad">Edad</label><br> <input type="text" name="Edad"><br>
-        </div>
-        <div class="bloques">
-            <label for="Fecha de nacimiento">Fecha de nacimiento</label><br><input type="text"
-                name="Fecha de nacimiento"><br>
-        </div>
-        <div class="bloques">
-            <label for="Localidad">Localidad</label><br> <input type="text" name="Localidad">
-        </div>
-        <div class="bloques">
-            <form action="Sexo">
-                <label for="Sexo">Sexo</label><br>
-                <select name="hombre/mujer/otros">Sexo
-                    <option value="Hombre">Hombre</option>
-                    <option value="Mujer">Mujer</option>
-                    <option value="Otro">Otro</option>
-                </select>
-        </div>
-        </form>
-
-    </div>
-    </div>
--->
 
 </html>
