@@ -1,0 +1,69 @@
+body {
+    background-image: url(imagenesFormulario/Fondo.jpg);
+    background-attachment: fixed;
+    font-family: 'Indie Flower', cursive;
+}
+
+.titulo {
+    text-align: center;
+    margin: 0 auto;
+    width: 650px;
+    height: 0 auto;
+    border: 4px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: black;
+    padding: 10px;
+    background-color: rgb(247, 238, 247);
+   
+}
+
+.subbloques {
+    border: 2px;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 10px;
+    height: 0 auto;
+    width: 625px;
+    margin: 0 auto;
+    margin-top: 10px;
+    background-color: rgb(247, 238, 247);
+}
+
+.bloque {
+    padding: 10px;
+    height: 0 auto;
+    width: 625px;
+    margin: 0 auto;
+    margin-top: 10px;
+
+}
+
+.boton {
+    background-color: rgb(53, 165, 53);
+    width: 200px;
+    text-align: center;
+    border-radius: 10px;
+    height: 0 auto;
+    margin: 0 auto;
+    border: solid;
+    border-color: transparent;
+    
+}
+
+.boton:hover {
+    background-color: white;
+    border-color: rgb(0, 0, 0);
+    cursor: cell;
+}
+
+.link {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    width: 200px;
+}
+
+.link:hover {
+    color: black;
+
+}

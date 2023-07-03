@@ -1,0 +1,51 @@
+body{
+    font-family: 'Indie Flower', cursive;
+}
+.encabezado {
+    text-align: center;
+    background-color: #6c00ff;
+    color: whitesmoke;
+    height: 120px;
+    padding: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.boton-2 {
+    padding:10px;
+    margin: 5px 10px 5px 10px;
+}
+
+.sub-titulo {
+    text-align: center;
+    font-size: large;
+    margin: 0 auto;
+    background-color: #6c00ff;
+    color: white;
+    padding-bottom: 5px;
+}
+
+.boton-pedido {
+    color: white;
+    text-decoration: none;
+}
+
+.logo {
+    height: 100px;
+    width: 300px;
+    margin: 0px;
+    margin-right: 630px;
+}
+
+.titulo-subtitulo {
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+    margin-top: 15px;
+}
+
+.tabla {
+    margin: 10px;
+    padding: 5px 10px;
+}

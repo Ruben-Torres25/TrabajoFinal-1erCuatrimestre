@@ -18,7 +18,6 @@ function enviar() {
     console.log("DNI: ", dni.value);
     console.log("sexo: ", sexo.value);
     console.log("contacto: ", contacto.value);
-
 }
 
 
